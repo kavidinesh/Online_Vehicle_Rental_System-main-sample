@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Skyline Rentals</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/headerfooter.css">
+        <link rel="stylesheet" type="text/css" href="css/Reservation.css">
+		
+	</head>
+	<body>
+        <header>	
+            <h1 class="head1">Skyline Rentals</h1>
+            <hr id="top">
+            <img src="images/logo.jpg" alt="skyline logo" class="logo">
+            <ul class="menu1">
+                <li><a href="" class="list1">Language</a></li>
+                <li><a href="" class="list1">Feedbacks</a></li>
+                <li><a href="Contact us.html" class="list1">Contact us</a></li>
+                <li><a href="" class="list1">About us</a></li>
+            </ul>
+            <a href="userprofile.php"><button class="loginbuttn">Profile</button></a>
+            <hr id="bot"><br>
+            <ul class="menu2">
+                <li><a href="home.php" class="list2">Home</a></li>
+                <li><a href="Reservation.html" class="list2">Resevartion</a></li>
+                <li><a href="i" class="list2">Vehicles</a></li>
+                <li><a href="i" class="list2">Locations</a></li>
+            </ul><br>
+            <hr class="hr3"><br><br>
+        </header>
+        <main>
+            <body class="main_bg">
+                <div class="form">
+                    <div class="form-text">
+                        <h1><span><img src="art-1.png" alt=""></span>Reserve Now <span><img src="art-1.png" alt=""></span></h1>
+                        <p>Reserve your vehicle and embark on your next adventure with ease!</p>
+                    </div>
+                    <div class="main-form">
+                        <form action="index.php" method="get">
+                            <div>
+                                <span>Your full name ?</span>
+                                <input type="text" name="name" id="name" placeholder="Your full name..." required>
+                            </div>
+                            <div>
+                                <span>Pick-up location ?</span>
+                                <input type="text" name="name" id="name" placeholder="Provide location..." required> 
+                            </div>
+                            <div>
+                                <!-- <---this is the select option--->
+                                <span>Vehicle class ?</span>
+                                <select name="people" id="people" required>
+                                    <option value=""><---Vehicle class---></option>
+                                    <option value="1">Car</option>
+                                    <option value="2">SUV</option>
+                                    <option value="3">Van</option>
+            
+                                </select>
+                                <!-- <---this is the select option--->
+                            </div>
+                            <div>
+                                <span>Renter age ?</span>
+                                <input type="number" name="time" id="time" placeholder="Your age" required>
+                            </div>
+                            <div>
+                                <span>Pick-up date ?</span>
+                                <input type="date" name="date" id="date" placeholder="date" required>
+                            </div>
+                            <div>
+                                <span>Return date ?</span>
+                                <input type="date" name="date" id="date" placeholder="date" required>
+                            </div>
+                            <div id="submit">
+                                <input type="submit" value="SUBMIT" id="submit">
+                            </div>
+            
+            
+                        </form>
+                    </div>
+                </div>
+            </body>
+
+        </main>    
+			
+		<footer style="margin-top: 200px;">
+			<hr class="hr3">
+			<h2 style="font-family: cursive; font-size: 30px; margin-left: 30px; color:midnightblue ;">Skyline Rentals</h2>
+			<div class="footerimg">
+				<img src="Images/facebook.png" style="margin-right: 30px;">
+				<img src="Images/twitter.png">
+				<img src="Images/youtube.png" style="margin-left: 30px;">
+			</div>
+			<div class="footercontact">
+				<p>+44 20 7946 0156 – Michel</p>
+				<p>+44 20 7946 0142 – Jhon</p>
+				<p>admin@skyline.com</p>
+				<p>Addres:9503, New Street,
+						  London,
+						  SE69 5XE</p>
+			</div>
+			<div class="copyright">
+				<p>​© 2023 The Skyline Rentals Corporation. </p>
+			</div>
+			
+			<div class="footerlist">
+				<ul>
+					<li class="flitems"><a href="" class="list1">Terms of use</a></li>
+					<li class="flitems"><a href="" class="list1">Privacy policy</a></li>
+					<li class="flitems"><a href="sitemap.html" class="list1">Site Map</a></li>
+				</ul>
+			</div>
+			
+		</footer>
+		
+	</body>	
+</html>
